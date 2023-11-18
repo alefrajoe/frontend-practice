@@ -1,22 +1,22 @@
 // Define the buttons
-moves = ["rock", "paper", "scissors"]
+moves = ["rock", "paper", "scissors"];
 
 // Moves to integers
 movesToInteger = {"rock" : 0,
                 "paper" : 1,
-                "scissors" : 2}
+                "scissors" : 2};
 
 // loop over all the moves
 for (move of moves){
     
     // create the button
-    let button = document.createElement('button')
+    let button = document.createElement('button');
 
     // Add class to the button
-    button.classList.add('btn')
+    button.classList.add('btn');
     
     // Insert the move into the button
-    button.innerHTML = move
+    button.innerHTML = move;
     
     // Append an event listener to the 
     button.addEventListener('click', function () {
@@ -28,11 +28,11 @@ for (move of moves){
         updateResult(result);
 
         // Update the result of the game
-        resultGame(result)
-    })
+        resultGame(result);
+    });
 
     // Append the button to the body of the html file
-    document.body.appendChild(button)
+    document.body.appendChild(button);
 }
 
 function playGame(elem){
@@ -45,7 +45,7 @@ function playGame(elem){
 
     // Return the results
     return {"player" : player,
-            "computer" : computer}
+            "computer" : computer};
 }
 
 function updateResult(game){
@@ -58,7 +58,7 @@ function updateResult(game){
 function resultGame(game){
 
     // Take the result node
-    let result = document.querySelector('.result')
+    let result = document.querySelector('.result');
 
     // Map the game to integers
     let player = movesToInteger[game.player];
