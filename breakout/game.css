@@ -1,0 +1,26 @@
+.screen {
+    width: 600px;
+    height: 300px;
+    border: solid black 1px;
+    position: absolute;
+}
+
+.block {
+    position: absolute;
+    background-color: blue;
+    border: solid blue 1px;
+}
+
+.player {
+    position: absolute;
+    background-color: green;
+    border: solid black 1px;
+}
+
+.ball {
+    position: absolute;
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+}
