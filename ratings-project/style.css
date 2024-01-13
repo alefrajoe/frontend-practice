@@ -1,0 +1,54 @@
+body {
+    background-color: lightyellow;
+}
+
+div.box-rating {
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    transform: translateY(10%);
+    padding: 50px;
+    box-shadow: 5px 10px 5px;
+    border-radius: 10px;
+}
+
+div.emoji-container{
+    position: relative;
+    left: 43%;
+    width: 500px;
+    height: 48px;
+    transform: translateY('-100px');
+}
+
+div.star-container{
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+    width: 270px;
+}
+
+.fa-star {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gold {
+    color: gold;
+}
+
+.show{
+    position: absolute;
+    transform: translateY('30px');
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.face {
+    position: relative;
+    color: red;
+}
