@@ -1,0 +1,38 @@
+img {
+    width: 12px;
+}
+
+input {
+    box-shadow: inset;
+    border-radius: 5px;
+}
+
+.item {
+    cursor: pointer;
+    text-align: center;
+    width: 166px;
+    border-radius: 8px;
+    display: block;
+    border: solid;
+    background-color: lightblue;
+}
+
+.container {
+    width: 200px;
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: chocolate;
+    background-color: bisque;
+}
+.press {
+    background-color: lightgreen;
+}
+
+.delete {
+    display: inline;
+    border-radius: 14px;
+}
